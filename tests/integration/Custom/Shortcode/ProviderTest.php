@@ -4,7 +4,7 @@ namespace Fulcrum\Tests\Integration\Custom\Shortcode;
 
 use Fulcrum\Custom\Shortcode\Shortcode;
 use Fulcrum\Custom\Shortcode\ShortcodeProvider;
-use Fulcrum\Custom\Shortcode\Stub\FooShortcode;
+use Fulcrum\Tests\Integration\Custom\Shortcode\Stub\FooShortcode;
 use Fulcrum\Tests\Integration\IntegrationTestCase;
 use Mockery;
 
