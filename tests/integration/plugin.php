@@ -1,19 +1,19 @@
 <?php
 /**
- * Custom Post Type Plugin
+ * Custom Shortcode Plugin
  *
- * @package         Custom Post Type
+ * @package         Custom Shortcode
  * @author          hellofromTonya
  * @license         MIT
- * @link            https://github.com/wpfulcrum/post-type
+ * @link            https://github.com/wpfulcrum/shortcode
  *
  * @wordpress-plugin
- * Plugin Name:     Custom Post Type Plugin
- * Plugin URI:      https://github.com/wpfulcrum/post-type
- * Description:     Fulcrum Post Type Module - custom post types made easy.
- * Version:         3.0.0
+ * Plugin Name:     Custom Shortcode Plugin
+ * Plugin URI:      https://github.com/wpfulcrum/shortcode
+ * Description:     Fulcrum Shortcode Module
+ * Version:         3.0.1
  * Author:          hellofromTonya
- * Author URI:      https://github.com/wpfulcrum/post-type
+ * Author URI:      https://github.com/wpfulcrum/shortcode
  * Text Domain:     fulcrum
  * Requires WP:     4.9
  * Requires PHP:    5.6

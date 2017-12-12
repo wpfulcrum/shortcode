@@ -1,6 +1,6 @@
 <?php
 
-namespace Fulcrum\Tests\Integration\Custom\Shortcode;
+namespace Fulcrum\Tests\Integration;
 
 if (version_compare(phpversion(), '5.6.0', '<')) {
     die('Whoops, PHP 5.6 or higher is required.');
