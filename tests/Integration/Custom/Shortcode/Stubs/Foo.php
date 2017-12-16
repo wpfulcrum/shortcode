@@ -1,6 +1,6 @@
 <?php
 
-namespace Fulcrum\Tests\Integration\Custom\Shortcode\Stub;
+namespace Fulcrum\Tests\Integration\Custom\Shortcode\Stubs;
 
 use Fulcrum\Custom\Shortcode\Shortcode;
 

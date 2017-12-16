@@ -4,7 +4,7 @@ namespace Fulcrum\Tests\Integration\Custom\Shortcode;
 
 use Fulcrum\Custom\Shortcode\Shortcode;
 use Fulcrum\Custom\Shortcode\ShortcodeProvider;
-use Fulcrum\Tests\Integration\Custom\Shortcode\Stub\Foo;
+use Fulcrum\Tests\Integration\Custom\Shortcode\Stubs\Foo;
 use Fulcrum\Tests\Integration\IntegrationTestCase;
 use Mockery;
 
@@ -79,7 +79,7 @@ class ProviderTest extends IntegrationTestCase
         $provider  = new ShortcodeProvider($this->fulcrumMock);
 
 //        // Hmm, TravisCI keeps failing for not finding the stub. Let's just load it into memory here.
-//        if (!class_exists('Fulcrum\Tests\Integration\Custom\Shortcode\Stub\Foo')) {
+//        if (!class_exists('Fulcrum\Tests\Integration\Custom\Shortcode\Stubs\Foo')) {
 //            require_once __DIR__ . '/Stubs/Foo.php';
 //        }
         $fooConfig = Foo::$concreteConfig;
