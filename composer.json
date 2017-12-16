@@ -22,8 +22,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Fulcrum\\Tests\\Integration\\": "tests/integration/",
-            "Fulcrum\\Tests\\Unit\\": "tests/unit/"
+            "Fulcrum\\Tests\\Integration\\": "tests/Integration/",
+            "Fulcrum\\Tests\\Unit\\": "tests/Unit/"
         }
     },
     "require": {
@@ -46,6 +46,6 @@
     "scripts": {
         "phpcs": "\"vendor/bin/phpcs\"",
         "test-unit": "\"vendor/bin/phpunit\" --testsuite unit",
-        "test-integration": "\"vendor/bin/phpunit\" --testsuite integration --configuration tests/integration/phpunit.xml.dist"
+        "test-integration": "\"vendor/bin/phpunit\" --testsuite integration --configuration tests/Integration/phpunit.xml.dist"
     }
 }
