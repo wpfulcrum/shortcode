@@ -1,6 +1,9 @@
 CHANGELOG
 =========
 
+3.0.3
+- Fixed passing content through `do_shortcode`
+
 3.0.2
 - Added `initShortcode()` method for child classes to utilize.
 - Added configuration parameter to run `do_shortcode($content)`
